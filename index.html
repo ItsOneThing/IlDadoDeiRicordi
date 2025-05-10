@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🏮 Il Dado dei Ricordi 🐉</title>
+    <link rel="icon" href="img_favicon/loong.avif" type="image/png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>🏮 Il Dado dei Ricordi 🐉</h1>
+
+        <div class="dice-container">
+            <div class="dice" id="dice" role="img" aria-label="Dado">🎲</div>
+            <div class="result" id="result"></div>
+            <button id="rollButton">Lancia il Dado</button>
+        </div>
+
+        <div class="image-container">
+            <img
+                id="randomImage"
+                class="image-display"
+                src=""
+                alt="Lancia il dado per vedere un'immagine!"
+                style="display: none;"
+            />
+        </div>
+
+        <div class="story-container" id="storyText">
+            <!-- Testo iniziale gestito da JS -->
+        </div>
+
+        <button id="resetButton">Resetta la Pagina</button>
+    </div>
+
+    <!-- Suono di sottofondo, se desiderato -->
+    <audio autoplay loop hidden>
+        <source src="musica-cinese.mp3" type="audio/mp3" />
+    </audio>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
