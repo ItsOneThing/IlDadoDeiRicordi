@@ -53,11 +53,11 @@ window.addEventListener('DOMContentLoaded', () => {
             story: "La statua di Franz Kafka, un omaggio a uno degli scrittori più importanti del XX secolo. Kafka ha esplorato le tematiche della solitudine e dell'assurdità della vita."
         },
         {
-            path: "img_ricordi/museo.jpg",
+            path: "img_ricordi/museo.JPG",
             story: "Il Museo dell'Unione Europea a Bruxelles, un luogo dove la storia della cooperazione europea prende vita. Un'esperienza che offre uno sguardo profondo sul futuro dell'Europa."
         },
         {
-            path: "img_ricordi/parlamento.jpg",
+            path: "img_ricordi/parlamento.JPG",
             story: "Il Parlamento dell'Unione Europea, simbolo della democrazia e della cooperazione internazionale. Qui vengono prese decisioni che influenzano milioni di persone."
         },
         {
